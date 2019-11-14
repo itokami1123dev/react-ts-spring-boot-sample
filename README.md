@@ -25,3 +25,11 @@ $ cd frontend
 $ npm run start
 ```
 http://localhost:8081/ のURLで開発します。Reactを修正すると勝手に反映されます。
+
+
+Docker でビルドするサンプル
+---
+
+```bash
+$ docker build --tag="react-ts-spring-boot-sample" .
+```

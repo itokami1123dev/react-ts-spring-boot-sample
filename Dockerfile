@@ -1,6 +1,6 @@
 FROM maven:3.6.1-jdk-8 AS builder
 RUN mkdir -p /opt/java/src
-COPY ./react-ts-spring-boot-sample/ /opt/java/
+COPY ./ /opt/java/
 RUN cd /opt/java && mvn install
 
 FROM openjdk:8-jre-alpine
