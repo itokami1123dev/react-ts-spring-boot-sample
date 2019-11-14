@@ -32,4 +32,5 @@ Docker でビルドするサンプル
 
 ```bash
 $ docker build --tag="react-ts-spring-boot-sample" .
+$ docker run --name sample -it -p 8080:8080 -d react-ts-spring-boot-sample
 ```
